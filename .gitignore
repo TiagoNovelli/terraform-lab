@@ -1,0 +1,9 @@
+# Ignorar arquivos Word
+**/*.docx
+
+# Ignorar arquivos e diretórios do Terraform
+**/.terraform/*
+**/.terraform.lock.hcl
+**/terraform.tfstate
+**/terraform.tfstate.*
+**/terraform.tfstate.d/
